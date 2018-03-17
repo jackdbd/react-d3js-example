@@ -1,28 +1,25 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.histogram .bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+  }
+  .histogram .bar text {
+  fill: #fff;
+  font: 12px sans-serif;
+  }
+  button {
+  margin-right: .5em;
+  margin-bottom: .3em !important;
+  }
+  .row {
+  margin-top: 1em;
+  }
+  .mean text {
+  font: 11px sans-serif;
+  fill: grey;
+  }
+  .mean path {
+  stroke-dasharray: 3;
+  stroke: grey;
+  stroke-width: 1px;
+  }
+  
